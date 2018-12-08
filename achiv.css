@@ -1,0 +1,55 @@
+*{padding:0;
+margin:0}
+
+.header{
+	background:#808080;
+	margin:0 auto;
+	margin-top:5px;	
+	height:180px;
+}
+.header h1{
+	color:white;
+	text-align:center;
+	padding:60px;
+}
+.taskbar{
+	background:#808080;
+	margin:0 auto;
+	margin-top:30px;
+	height:60px;
+}
+.taskbar ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.taskbar ul li{
+	float:left;
+	padding: 0px;
+}
+
+.taskbar ul li a{
+	padding: 10px 20px;
+	font-size:30px; 
+	color:#ffffff;
+	display:block;
+	text-align: center;
+}
+
+.taskbar ul li a:hover{
+	background:#696969;
+	display:block;
+}
+.content{
+	background:#808080;
+	margin:0 auto;	
+	height:600px;
+}
+.content ol{
+	padding:100px;
+	margin-left:100px;
+}
+.content li{
+	font-size:36px;
+	color:white;
+}
